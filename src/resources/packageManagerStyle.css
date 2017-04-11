@@ -5,6 +5,10 @@
 
 body {
 
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
     font-family: "Open Sans";
 }
 
@@ -21,22 +25,14 @@ body {
 }
 
 .LeftContainer {
-    background: cornflowerblue;
+    background: #353535;
+    padding: 10px;
 }
 
 .RightContainer {
     flex-grow: 1;
-    background: greenyellow;
-}
-
-
-.Description
-{
-    /*display: flex;*/
-    font-size: 10pt;
-    margin-left: 5pt;
-    background-color: dimgray;
-    color: brown;
+    background: #555;
+    padding: 10px;
 }
 
 .VersionContainer {
@@ -47,5 +43,16 @@ body {
 
 .VersionContainer div {
     padding: 5px;
+}
+
+.DetailSectionHeader {
+    margin: 6px 0px;
+    font-size: 11pt;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.DetailSection {
+    margin-bottom: 21px;
 }
 
