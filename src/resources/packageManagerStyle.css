@@ -3,6 +3,11 @@
     src: url('fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
+body {
+
+    font-family: "Open Sans";
+}
+
 .OuterMostContainer {
     display: flex;
     width: 100%;
@@ -16,4 +21,13 @@
 .RightContainer {
     flex-grow: 1;
     background: greenyellow;
+}
+
+.Description
+{
+    /*display: flex;*/
+    font-size: 10pt;
+    margin-left: 5pt;
+    background-color: dimgray;
+    color: brown;
 }

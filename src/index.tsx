@@ -20,5 +20,5 @@ export class TabControl {
 let dependencies : string[] = ["qux", "quz"];
 
 ReactDOM.render(
-    <PackageDetail changeLog="foo" content="bar" dependencies={dependencies}/>,
+    <PackageDetail changeLog="foo" content="bar" dependencies={dependencies} name="test"/>,
     document.getElementById("packageDetailPlaceHolder"));
