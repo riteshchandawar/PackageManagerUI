@@ -14,6 +14,12 @@ body {
     align-content: stretch;
 }
 
+.InstallButtons {
+    flex-grow: 1;
+    width: 100%;
+    background: cornflowerblue;
+}
+
 .LeftContainer {
     background: cornflowerblue;
 }
@@ -23,6 +29,7 @@ body {
     background: greenyellow;
 }
 
+<<<<<<< HEAD
 .Description
 {
     /*display: flex;*/
@@ -31,3 +38,14 @@ body {
     background-color: dimgray;
     color: brown;
 }
+=======
+.VersionContainer {
+    font-family: 'Open Sans';
+    display:flex;
+    border: 1px solid #aaa;
+}
+
+.VersionContainer div {
+    padding: 5px;
+}
+>>>>>>> 431e591a49e711cdf4d5a44450054e5af7cffd87
