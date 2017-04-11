@@ -29,7 +29,7 @@ body {
     background: greenyellow;
 }
 
-<<<<<<< HEAD
+
 .Description
 {
     /*display: flex;*/
@@ -38,7 +38,7 @@ body {
     background-color: dimgray;
     color: brown;
 }
-=======
+
 .VersionContainer {
     font-family: 'Open Sans';
     display:flex;
@@ -48,4 +48,4 @@ body {
 .VersionContainer div {
     padding: 5px;
 }
->>>>>>> 431e591a49e711cdf4d5a44450054e5af7cffd87
+
