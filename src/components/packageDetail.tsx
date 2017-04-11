@@ -2,14 +2,16 @@ import * as React from "react";
 
 export interface PackageDetailProps {
     changeLog: string;
-    content: string;
+    content: any;
     dependencies: string[];
     name: string;
 }
 
 export class PackageDetail extends React.Component<PackageDetailProps, undefined> {
-    constructor(props: PackageDetailProps) {
-        super(props);
+    
+    constructor(detail: PackageDetailProps) {
+        super(detail);
+        console.log(this.props.content);
     }
 
     render() {
@@ -17,7 +19,7 @@ export class PackageDetail extends React.Component<PackageDetailProps, undefined
             <div className="Detail">
                 <div className="Descrition">Hello from Description {this.props.name}</div>
                 <div className="DetailSectionHeader">What's New:</div>
-                <div className="DetailSection">{this.props.changeLog}</div>
+                <div className="DetailSection">{this.props.content.versions[0].change_log}</div>
                 <div className="DetailSectionHeader">KnownIssue</div>
                 <div className="DetailSection"></div>
                 <div className="DetailSectionHeader">Dependencies</div>

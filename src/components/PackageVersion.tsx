@@ -41,7 +41,7 @@ export class PackageVersion extends React.Component<PackageVersionProps, Package
 
             let dummyDependencies : string[] = ["foo"];
             let packageDetail : JSX.Element = 
-                <PackageDetail changeLog="" content="" dependencies={dummyDependencies}/>
+                <PackageDetail changeLog="" content="" dependencies={dummyDependencies} name="test"/>
 
             return (
             <div className="VersionContainer">
